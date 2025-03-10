@@ -1,0 +1,284 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font for the whole page */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header and navbar */
+  .header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    margin: 21px 0px;
+}
+
+.navbar .items {
+    padding: 2px 16px;
+}
+
+.navbar .items a {
+    text-decoration: none;
+    color: #f8fdda;
+    font-size: 1.6rem;
+    border-radius: 30px;
+    padding: 5px;
+    font-family: monospace;
+    transition: all ease 0.5s;
+}
+
+.navbar .items a:hover {
+    background-color: #ff8800;
+    color: #12486B;
+    scale: 0.2;
+}
+
+
+.logo {
+    font-size: 1.6rem;
+    margin: 4px 7px;
+    font-family: monospace;
+    color: #ff8800;
+}
+  
+  /* Style the about section */
+  .primary-heading {
+    width: 340px;
+    margin: auto;
+    font-size: 40px;
+    padding: 9px 0px;
+    font-family: math;
+    font-weight: bolder;
+    color: #ff8800;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#about-section {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 30px;
+    padding: 13px 33px;
+}
+
+
+.secoundary-heading {
+    font-size: 4.2rem;
+    color: #ff8800;
+    font-family: 'Inclusive Sans', sans-serif;
+
+}
+
+.bio {
+    margin-top: 35px;
+}
+
+.bio p {
+    color: #f8fdda;
+    font-size: 1.3rem;
+    width: 728px;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.image {
+    margin: 0px 8px;
+}
+
+.image img {
+    position: relative;
+    width: 370px;
+    border-radius: 50%;
+    margin: -15px 12px;
+    
+}
+
+  /* Style the skills section */
+  #skills-section {
+    text-align: center;
+    height: 540px;
+    
+    
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .skills .box {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    margin-top: 25px;
+  }
+  
+  .skills .box:hover {
+    transform: scale(1.05);
+  }
+  
+  .skills .icon {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .skills h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+  }
+  p{
+      color: white;
+      margin-bottom: 5px;
+  }
+  
+  
+  
+  /* Style the project section */
+  #project-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .projects .primary-heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff8800;
+  }
+  
+  .projects .proj {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .projects .proj h3 {
+    font-size: 2.2rem;
+    margin: 10px 0;
+    color: #ff8800;
+  }
+  
+  .projects .proj p {
+    font-size: 1.2rem;
+  }
+  
+  .projects .image1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Style the contact section */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* White background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for depth */
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 770px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #f7941d;
+    /* Orange button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #f26c4f;
+    /* Lighter orange on hover */
+}
+
+/* Contact information styles */
+.contact-info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    /* Dark gray text color */
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #666;
+    /* Slightly darker gray text color */
+}
+footer{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    background-color: #857f79;
+    height: 40px;
+}
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .about .bio, .form-box, .social-links {
+      width: 100%;
+    }
+  }
+  
